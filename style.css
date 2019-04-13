@@ -1,0 +1,48 @@
+body{
+  margin: 20px;
+}
+
+.page-container {
+  max-width: 1000px;
+  margin: auto;
+}
+#scratch-tools-logo {
+  width: 100%;
+  max-width: 280px;
+}
+
+#panel-container {
+  margin-top: 40px;
+}
+.panel-a{
+  text-decoration: none;
+}
+.panel-a:hover > .panel > .panel-text > .panel-text-header {
+  text-decoration: underline;
+}
+.panel {
+  margin-top: 20px;
+  width: 100%;
+  height: 140px;
+  background-color: #efefef;
+  border-radius: 11px;
+}
+.panel-text {
+  width: 50%;
+  margin-left: 10px;
+  font-family: Consolas,monaco,monospace;
+}
+.panel-text-header{
+  color: #f9a737;
+  font-size: 34px;
+}
+.panel-text-para{
+  color: #464646;
+}
+.panel-img {
+  border-radius: 0 11px 11px 0;
+  height: 132px;
+  float: right;
+  border: solid #efefef 4px;
+  border-left: none;
+}
