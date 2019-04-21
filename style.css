@@ -46,3 +46,13 @@ body{
   border: solid #efefef 4px;
   border-left: none;
 }
+
+#andreto-site-a {
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 20px;
+}
+ 
